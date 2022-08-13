@@ -3749,7 +3749,7 @@
                     textRendering: "geometricPrecision"
                 });
                 const r = t.attachShadow({mode: "closed"}), s = document.createElement("style");
-                s.textContent = `\n    canvas {\n      width: 100%;\n      height: ${i}px;\n      position: absolute;\n      top: 0;\n      left: 0;\n      cursor: 'default';\n    }\n    .full {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      top: 0;\n      left: 0;\n      image-rendering: pixelated;\n    }\n    .content-bubble {\n      position: absolute;\n      width: 650px;\n      height: 314px;\n      top: 24px;\n      left: 634px;\n      background: url(${n.fF ? "/guide/bubble.png" : "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/fqC498nGEQ.png"});\n    }\n    .option-bubble {\n      width: 220px;\n      height: 80px;\n      background: url(${n.fF ? "/guide/bubble_option.png" : "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/x0KtnfZvTq.png"});\n      cursor: pointer;\n      text-align: center;\n      font-size: 24px;\n      line-height: 24px;\n      color: rgb(89, 164, 87);\n      box-sizing: border-box;\n      padding-top: 28px;\n      padding-right: 28px;\n      transition: 0.3s\n    }\n    .option-bubble:hover {\n      transform: translateY(-5px);\n    }\n    .end-content-left {\n      position: absolute;\n      width: 220px;\n      height: 160px;\n      top: 80px;\n      left: 70px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      box-sizing: border-box;\n      padding-left: 20px;\n    }\n    .end-content-right {\n      position: absolute;\n      width: 220px;\n      height: 160px;\n      top: 80px;\n      left: 310px;\n      font-size: 24px;\n      color: rgb(116, 167, 166);\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n    }\n    .end-content-right span {\n      color: #a4d341;\n      letter-spacing: -3px;\n      margin-right: 3px;\n    }\n    .end-option-icon {\n      position: absolute;\n      width: 36px;\n      height: 36px;\n      top: 20px;\n      left: 160px;\n      background-size: 100%;\n      background-repeat: no-repeat;\n      background-position: center;\n    }\n\n    .score {\n      position: absolute;\n      color: #fff;\n      top: 48px;\n      right: 24px;\n      text-shadow: 3px 3px #000;\n      display: flex;\n      align-items: center;\n      justify-content: flex-end;\n      width: 240px;\n      height: 32px;\n      transform: scale(1.5);\n      transform-origin: right;\n    }\n    .number {\n      width: 24px;\n      height: 32px;\n      background-image: url(/i0.hdslb.com/bfs/activity-plat/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/ZP51pxsKWj.png);\n      background-repeat: no-repeat;\n      background-size: 240px 32px;\n      image-rendering: pixelated;\n    }\n  `, r.appendChild(s);
+                s.textContent = `\n    canvas {\n      width: 100%;\n      height: ${i}px;\n      position: absolute;\n      top: 0;\n      left: 0;\n      cursor: 'default';\n    }\n    .full {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      top: 0;\n      left: 0;\n      image-rendering: pixelated;\n    }\n    .content-bubble {\n      position: absolute;\n      width: 650px;\n      height: 314px;\n      top: 24px;\n      left: 634px;\n      background: url(${n.fF ? "/guide/bubble.png" : "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/fqC498nGEQ.png"});\n    }\n    .option-bubble {\n      width: 220px;\n      height: 80px;\n      background: url(${n.fF ? "/guide/bubble_option.png" : "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/x0KtnfZvTq.png"});\n      cursor: pointer;\n      text-align: center;\n      font-size: 24px;\n      line-height: 24px;\n      color: rgb(89, 164, 87);\n      box-sizing: border-box;\n      padding-top: 28px;\n      padding-right: 28px;\n      transition: 0.3s\n    }\n    .option-bubble:hover {\n      transform: translateY(-5px);\n    }\n    .end-content-left {\n      position: absolute;\n      width: 220px;\n      height: 160px;\n      top: 80px;\n      left: 70px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      box-sizing: border-box;\n      padding-left: 20px;\n    }\n    .end-content-right {\n      position: absolute;\n      width: 220px;\n      height: 160px;\n      top: 80px;\n      left: 310px;\n      font-size: 24px;\n      color: rgb(116, 167, 166);\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n    }\n    .end-content-right span {\n      color: #a4d341;\n      letter-spacing: -3px;\n      margin-right: 3px;\n    }\n    .end-option-icon {\n      position: absolute;\n      width: 36px;\n      height: 36px;\n      top: 20px;\n      left: 160px;\n      background-size: 100%;\n      background-repeat: no-repeat;\n      background-position: center;\n    }\n\n    .score {\n      position: absolute;\n      color: #fff;\n      top: 48px;\n      right: 24px;\n      text-shadow: 3px 3px #000;\n      display: flex;\n      align-items: center;\n      justify-content: flex-end;\n      width: 240px;\n      height: 32px;\n      transform: scale(1.5);\n      transform-origin: right;\n    }\n    .number {\n      width: 24px;\n      height: 32px;\n      background-image: url(i0.hdslb.com/bfs/activity-plat/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/ZP51pxsKWj.png);\n      background-repeat: no-repeat;\n      background-size: 240px 32px;\n      image-rendering: pixelated;\n    }\n  `, r.appendChild(s);
                 const a = document.createElement("canvas");
                 a.width = 1920, a.height = 360, r.appendChild(a);
                 const l = document.createElement("div");
@@ -3757,7 +3757,7 @@
                     display: "none",
                     opacity: "0",
                     transition: "opacity 0.5s",
-                    backgroundImage: `url(${n.fF ? "/guide/end_cover.png" : "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/3xqAauWyWp.png"})`,
+                    backgroundImage: `url(${n.fF ? "/guide/end_cover.png" : "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/3xqAauWyWp.png"})`,
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat"
                 });
@@ -3814,15 +3814,15 @@
                 const A = [{y: 10, text: '再来！(<span style="color:#a4d341;">按Z</span>)', icon: ""}, {
                     y: 97,
                     text: "分享结果",
-                    icon: n.fF ? "/guide/share.png" : "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/L64vnF6vEL.png"
+                    icon: n.fF ? "/guide/share.png" : "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/L64vnF6vEL.png"
                 }, {
                     y: 185,
                     text: "回看教程",
-                    icon: n.fF ? "/guide/book.png" : "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/bZ4QGDKRXu.png"
+                    icon: n.fF ? "/guide/book.png" : "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/bZ4QGDKRXu.png"
                 }, {
                     y: 273,
                     text: "退出",
-                    icon: n.fF ? "/guide/exit.png" : "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/OfPa9ZyIUb.png"
+                    icon: n.fF ? "/guide/exit.png" : "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/OfPa9ZyIUb.png"
                 }].map(((e, t) => {
                     const i = document.createElement("div");
                     if (i.classList.add("option-bubble"), Object.assign(i.style, {
@@ -3909,53 +3909,53 @@
                 }
             }, d = {
                 "/VonwaonBitmap-12px.woff2": {
-                    src: r ? "/VonwaonBitmap-12px.woff2" : "/i0.hdslb.com/bfs/activity-plat/static/20220315/00979505aec5edd6e5c2f8c096fa0f62/g0JJ6atToR.woff2",
+                    src: r ? "/VonwaonBitmap-12px.woff2" : "i0.hdslb.com/bfs/activity-plat/static/20220315/00979505aec5edd6e5c2f8c096fa0f62/g0JJ6atToR.woff2",
                     type: "font",
                     options: {name: "Vonwaon"}
                 }
             }, u = {
-                "/sprite/background/sky.png": "/i0.hdslb.com/bfs/activity-plat/static/20220217/00979505aec5edd6e5c2f8c096fa0f62/1Pf3J23kur.png",
-                "/sprite/background/clouds.png": "/i0.hdslb.com/bfs/activity-plat/static/20220217/00979505aec5edd6e5c2f8c096fa0f62/rvRI0G1BmS.png",
-                "/sprite/background/mountain.png": "/i0.hdslb.com/bfs/activity-plat/static/20220217/00979505aec5edd6e5c2f8c096fa0f62/LuWoq27X7W.png",
-                "/sprite/background/near.png": "/i0.hdslb.com/bfs/activity-plat/static/20220217/00979505aec5edd6e5c2f8c096fa0f62/AkmiDNoNFy.png",
-                "/sprite/background/space.png": "/i0.hdslb.com/bfs/activity-plat/static/20220308/00979505aec5edd6e5c2f8c096fa0f62/hllMZ39mFV.png",
-                "/sprite/leaves/leaves1.png": "/i0.hdslb.com/bfs/activity-plat/static/20220224/00979505aec5edd6e5c2f8c096fa0f62/w66W8qKtsi.png",
-                "/sprite/leaves/leaves2.png": "/i0.hdslb.com/bfs/activity-plat/static/20220224/00979505aec5edd6e5c2f8c096fa0f62/we0s57YZSN.png",
-                "/sprite/leaves/leaves3.png": "/i0.hdslb.com/bfs/activity-plat/static/20220224/00979505aec5edd6e5c2f8c096fa0f62/V90uva9Va2.png",
-                "/sprite/leaves/leaves4.png": "/i0.hdslb.com/bfs/activity-plat/static/20220224/00979505aec5edd6e5c2f8c096fa0f62/IA21PIMRvD.png",
-                "/sprite/22.png": "/i0.hdslb.com/bfs/activity-plat/static/20220308/00979505aec5edd6e5c2f8c096fa0f62/hXJaoTXC37.png",
-                "/sprite/33.png": "/i0.hdslb.com/bfs/activity-plat/static/20220304/00979505aec5edd6e5c2f8c096fa0f62/SNPes6slpr.png",
-                "/sprite/shamrocks/shamrock1.png": "/i0.hdslb.com/bfs/activity-plat/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/1r6uJBboeZ.png",
-                "/sprite/shamrocks/shamrock2.png": "/i0.hdslb.com/bfs/activity-plat/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/56CwjhVTVg.png",
-                "/sprite/shamrocks/shamrock3.png": "/i0.hdslb.com/bfs/activity-plat/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/XSPA4yDs52.png",
-                "/sprite/shamrocks/shamrock4.png": "/i0.hdslb.com/bfs/activity-plat/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/ahwB6bVcGw.png",
-                "/sprite/shamrocks/shamrock_trap.png": "/i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/KFDYJVlhgT.png",
-                "/sprite/shamrocks/shamrock_lucky.png": "/i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/A29O65miDc.png",
-                "/sprite/wind/wind1.png": "/i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/h90zWlIavR.png",
-                "/sprite/wind/wind2.png": "/i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/mjTIdrD1yz.png",
-                "/sprite/wind/wind3.png": "/i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/oUz5oLVDl0.png",
-                "/sprite/wind/wind4.png": "/i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/hffVhQpxwA.png",
-                "/sprite/bird/bird.png": "/i0.hdslb.com/bfs/activity-plat/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/lxv3u3Y9ev.png",
-                "/sprite/bird/numbers.png": "/i0.hdslb.com/bfs/activity-plat/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/ZP51pxsKWj.png",
-                "/sprite/bird/numbers2.png": "/i0.hdslb.com/bfs/activity-plat/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/oMP50YCuMA.png",
-                "/sprite/count.png": "/i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/SFB0E2Z4gz.png",
-                "/guide/bubble.png": "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/fqC498nGEQ.png",
-                "/guide/end_cover.png": "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/3xqAauWyWp.png"
+                "/sprite/background/sky.png": "i0.hdslb.com/bfs/activity-plat/static/20220217/00979505aec5edd6e5c2f8c096fa0f62/1Pf3J23kur.png",
+                "/sprite/background/clouds.png": "i0.hdslb.com/bfs/activity-plat/static/20220217/00979505aec5edd6e5c2f8c096fa0f62/rvRI0G1BmS.png",
+                "/sprite/background/mountain.png": "i0.hdslb.com/bfs/activity-plat/static/20220217/00979505aec5edd6e5c2f8c096fa0f62/LuWoq27X7W.png",
+                "/sprite/background/near.png": "i0.hdslb.com/bfs/activity-plat/static/20220217/00979505aec5edd6e5c2f8c096fa0f62/AkmiDNoNFy.png",
+                "/sprite/background/space.png": "i0.hdslb.com/bfs/activity-plat/static/20220308/00979505aec5edd6e5c2f8c096fa0f62/hllMZ39mFV.png",
+                "/sprite/leaves/leaves1.png": "i0.hdslb.com/bfs/activity-plat/static/20220224/00979505aec5edd6e5c2f8c096fa0f62/w66W8qKtsi.png",
+                "/sprite/leaves/leaves2.png": "i0.hdslb.com/bfs/activity-plat/static/20220224/00979505aec5edd6e5c2f8c096fa0f62/we0s57YZSN.png",
+                "/sprite/leaves/leaves3.png": "i0.hdslb.com/bfs/activity-plat/static/20220224/00979505aec5edd6e5c2f8c096fa0f62/V90uva9Va2.png",
+                "/sprite/leaves/leaves4.png": "i0.hdslb.com/bfs/activity-plat/static/20220224/00979505aec5edd6e5c2f8c096fa0f62/IA21PIMRvD.png",
+                "/sprite/22.png": "i0.hdslb.com/bfs/activity-plat/static/20220308/00979505aec5edd6e5c2f8c096fa0f62/hXJaoTXC37.png",
+                "/sprite/33.png": "i0.hdslb.com/bfs/activity-plat/static/20220304/00979505aec5edd6e5c2f8c096fa0f62/SNPes6slpr.png",
+                "/sprite/shamrocks/shamrock1.png": "i0.hdslb.com/bfs/activity-plat/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/1r6uJBboeZ.png",
+                "/sprite/shamrocks/shamrock2.png": "i0.hdslb.com/bfs/activity-plat/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/56CwjhVTVg.png",
+                "/sprite/shamrocks/shamrock3.png": "i0.hdslb.com/bfs/activity-plat/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/XSPA4yDs52.png",
+                "/sprite/shamrocks/shamrock4.png": "i0.hdslb.com/bfs/activity-plat/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/ahwB6bVcGw.png",
+                "/sprite/shamrocks/shamrock_trap.png": "i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/KFDYJVlhgT.png",
+                "/sprite/shamrocks/shamrock_lucky.png": "i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/A29O65miDc.png",
+                "/sprite/wind/wind1.png": "i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/h90zWlIavR.png",
+                "/sprite/wind/wind2.png": "i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/mjTIdrD1yz.png",
+                "/sprite/wind/wind3.png": "i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/oUz5oLVDl0.png",
+                "/sprite/wind/wind4.png": "i0.hdslb.com/bfs/activity-plat/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/hffVhQpxwA.png",
+                "/sprite/bird/bird.png": "i0.hdslb.com/bfs/activity-plat/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/lxv3u3Y9ev.png",
+                "/sprite/bird/numbers.png": "i0.hdslb.com/bfs/activity-plat/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/ZP51pxsKWj.png",
+                "/sprite/bird/numbers2.png": "i0.hdslb.com/bfs/activity-plat/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/oMP50YCuMA.png",
+                "/sprite/count.png": "i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/SFB0E2Z4gz.png",
+                "/guide/bubble.png": "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/fqC498nGEQ.png",
+                "/guide/end_cover.png": "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/3xqAauWyWp.png"
             }, p = {
-                "/sprite/22.json": "/activity.hdslb.com/blackboard/static/20220308/00979505aec5edd6e5c2f8c096fa0f62/mhFnJ3WgCI.json",
-                "/sprite/33.json": "/activity.hdslb.com/blackboard/static/20220304/00979505aec5edd6e5c2f8c096fa0f62/bZ70VoHTmH.json",
-                "/sprite/shamrocks/shamrock1.json": "/activity.hdslb.com/blackboard/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/vQOKaRcQiQ.json",
-                "/sprite/shamrocks/shamrock2.json": "/activity.hdslb.com/blackboard/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/KKLdKJ60Tm.json",
-                "/sprite/shamrocks/shamrock3.json": "/activity.hdslb.com/blackboard/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/ECCbC7xZCf.json",
-                "/sprite/shamrocks/shamrock4.json": "/activity.hdslb.com/blackboard/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/jHhlzBK8lT.json",
-                "/sprite/shamrocks/shamrock_trap.json": "/activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/ekSXHfFK0Q.json",
-                "/sprite/shamrocks/shamrock_lucky.json": "/activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/jNCwVQWxuT.json",
-                "/sprite/wind/wind1.json": "/activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/RIfIuimWkU.json",
-                "/sprite/wind/wind2.json": "/activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/IHWo3trIPV.json",
-                "/sprite/wind/wind3.json": "/activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/2pqUgkNUXm.json",
-                "/sprite/wind/wind4.json": "/activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/ro0B1H3Ov8.json",
-                "/sprite/bird/bird.json": "/activity.hdslb.com/blackboard/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/VKYQz9AWcj.json",
-                "/sprite/count.json": "/activity.hdslb.com/blackboard/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/QUgV5pcBul.json"
+                "/sprite/22.json": "activity.hdslb.com/blackboard/static/20220308/00979505aec5edd6e5c2f8c096fa0f62/mhFnJ3WgCI.json",
+                "/sprite/33.json": "activity.hdslb.com/blackboard/static/20220304/00979505aec5edd6e5c2f8c096fa0f62/bZ70VoHTmH.json",
+                "/sprite/shamrocks/shamrock1.json": "activity.hdslb.com/blackboard/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/vQOKaRcQiQ.json",
+                "/sprite/shamrocks/shamrock2.json": "activity.hdslb.com/blackboard/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/KKLdKJ60Tm.json",
+                "/sprite/shamrocks/shamrock3.json": "activity.hdslb.com/blackboard/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/ECCbC7xZCf.json",
+                "/sprite/shamrocks/shamrock4.json": "activity.hdslb.com/blackboard/static/20220225/00979505aec5edd6e5c2f8c096fa0f62/jHhlzBK8lT.json",
+                "/sprite/shamrocks/shamrock_trap.json": "activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/ekSXHfFK0Q.json",
+                "/sprite/shamrocks/shamrock_lucky.json": "activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/jNCwVQWxuT.json",
+                "/sprite/wind/wind1.json": "activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/RIfIuimWkU.json",
+                "/sprite/wind/wind2.json": "activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/IHWo3trIPV.json",
+                "/sprite/wind/wind3.json": "activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/2pqUgkNUXm.json",
+                "/sprite/wind/wind4.json": "activity.hdslb.com/blackboard/static/20220303/00979505aec5edd6e5c2f8c096fa0f62/ro0B1H3Ov8.json",
+                "/sprite/bird/bird.json": "activity.hdslb.com/blackboard/static/20220316/00979505aec5edd6e5c2f8c096fa0f62/VKYQz9AWcj.json",
+                "/sprite/count.json": "activity.hdslb.com/blackboard/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/QUgV5pcBul.json"
             }, h = (() => {
                 try {
                     return 0 == document.createElement("canvas").toDataURL("image/webp").indexOf("data:image/webp")
@@ -4173,7 +4173,7 @@
             "use strict";
             i.d(t, {Y: () => r});
             var n = i(6010);
-            const o = n.fF ? new Array(10).fill(0).map(((e, t) => ({c: `/guide/${t + 1}.png`}))) : [{c: "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/IjRnuJVAMU.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/NtXwfLTm8r.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/sKIvMZvfqJ.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/H6ysLDyYzc.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/mMUeW2fhs3.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/pYaSYzhqWz.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/n2Pw2iT2r1.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/ODZkSkGrlS.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/KWGhLKKHic.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/QpEVse7WKu.png"}, {c: "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/vBuQkSZx0C.png"}],
+            const o = n.fF ? new Array(10).fill(0).map(((e, t) => ({c: `/guide/${t + 1}.png`}))) : [{c: "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/IjRnuJVAMU.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/NtXwfLTm8r.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/sKIvMZvfqJ.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/H6ysLDyYzc.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/mMUeW2fhs3.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/pYaSYzhqWz.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220323/00979505aec5edd6e5c2f8c096fa0f62/n2Pw2iT2r1.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/ODZkSkGrlS.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/KWGhLKKHic.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/QpEVse7WKu.png"}, {c: "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/vBuQkSZx0C.png"}],
                 r = (e, t, i, r = !1) => {
                     let s = 0;
                     const a = document.createElement("div");
@@ -4193,7 +4193,7 @@
                         transform: `scale(${t || 1})`
                     });
                     const c = document.createElement("style");
-                    c.textContent = `\n  .guide-close {\n    position: absolute;\n    width: 58px;\n    height: 58px;\n    top: 28px;\n    left: 1132px;\n    cursor: pointer;\n    background: url(${n.fF ? "/guide/x.png" : "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/pDRaxEfL5S.png"});\n  }\n  .guide-arrow {\n    position: absolute;\n    width: 40px;\n    height: 30px;\n    top: 24px;\n    left: 160px;\n    background: url(${n.fF ? "/guide/arrow.png" : "/i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/ZWZ5JWBR7W.png"});\n  }\n  @keyframes arrow_floating {\n    from { transform: translateX(0px); }\n    to   { transform: translateX(5px); }\n  }\n  @keyframes arrow_floating_r {\n    from { transform: scaleX(-1) translateX(0px); }\n    to   { transform: scaleX(-1) translateX(-5px); }\n  }\n  `, l.appendChild(c);
+                    c.textContent = `\n  .guide-close {\n    position: absolute;\n    width: 58px;\n    height: 58px;\n    top: 28px;\n    left: 1132px;\n    cursor: pointer;\n    background: url(${n.fF ? "/guide/x.png" : "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/pDRaxEfL5S.png"});\n  }\n  .guide-arrow {\n    position: absolute;\n    width: 40px;\n    height: 30px;\n    top: 24px;\n    left: 160px;\n    background: url(${n.fF ? "/guide/arrow.png" : "i0.hdslb.com/bfs/activity-plat/static/20220309/00979505aec5edd6e5c2f8c096fa0f62/ZWZ5JWBR7W.png"});\n  }\n  @keyframes arrow_floating {\n    from { transform: translateX(0px); }\n    to   { transform: translateX(5px); }\n  }\n  @keyframes arrow_floating_r {\n    from { transform: scaleX(-1) translateX(0px); }\n    to   { transform: scaleX(-1) translateX(-5px); }\n  }\n  `, l.appendChild(c);
                     const d = document.createElement("div");
                     d.classList.add("content-bubble"), l.appendChild(d);
                     const u = document.createElement("div");
@@ -4759,7 +4759,7 @@
                 const i = new FontFace(e, `url(${t})`);
                 return await i.load().then((() => document.fonts.add(i))), i
             }, l = async () => {
-                await Promise.all([a("FZLanTYJW", s.fF ? "/FZLanTYJW.ttf" : "/activity.hdslb.com/blackboard/static/20220310/00979505aec5edd6e5c2f8c096fa0f62/eg3s0Wl9p3.ttf"), a("HighPixel7", s.fF ? "/HighPixel7-08jv.ttf" : "/activity.hdslb.com/blackboard/static/20220310/00979505aec5edd6e5c2f8c096fa0f62/cKILLYSZ6K.ttf")]), c = !0
+                await Promise.all([a("FZLanTYJW", s.fF ? "/FZLanTYJW.ttf" : "activity.hdslb.com/blackboard/static/20220310/00979505aec5edd6e5c2f8c096fa0f62/eg3s0Wl9p3.ttf"), a("HighPixel7", s.fF ? "/HighPixel7-08jv.ttf" : "activity.hdslb.com/blackboard/static/20220310/00979505aec5edd6e5c2f8c096fa0f62/cKILLYSZ6K.ttf")]), c = !0
             };
             let c = !1, d = null;
             setTimeout((() => {
@@ -4782,7 +4782,7 @@
                 s.width = 720, s.height = 935;
                 const a = s.getContext("2d");
                 try {
-                    const e = await (0, n.po)("/i0.hdslb.com/bfs/activity-plat/static/20220317/00979505aec5edd6e5c2f8c096fa0f62/e0y0URDBAU.png");
+                    const e = await (0, n.po)("i0.hdslb.com/bfs/activity-plat/static/20220317/00979505aec5edd6e5c2f8c096fa0f62/e0y0URDBAU.png");
                     a.drawImage(e, 0, 0, e.naturalWidth, e.naturalHeight, 0, 0, 720, 935)
                 } catch (e) {
                 }
@@ -4941,7 +4941,7 @@
                         zIndex: "3000"
                     }), r.onload = () => {
                         document.body.removeChild(g)
-                    }, r.src = "/www.bilibili.com/blackboard/fe/activity-Jxv8XB9Wcp.html?" + o.toString(), document.body.appendChild(r);
+                    }, r.src = "www.bilibili.com/blackboard/fe/activity-Jxv8XB9Wcp.html?" + o.toString(), document.body.appendChild(r);
                     const a = e => {
                         "close-share-pub" === e.data.type && (e.data.id && (0, n.SZ)({
                             type: "click",
